@@ -1,0 +1,15 @@
+[package]
+name = "tezos_irmin_storage"
+version = "0.1.0"
+authors = ["Bruno Deferrari <utizoc@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ocaml-interop = "0.5.3" 
+
+[build-dependencies]
+colored = "2.0"
+fs_extra = "1.1"
+os_type = "2.2"
